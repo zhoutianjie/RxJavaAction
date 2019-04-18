@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kedacom.rxjavaactiondemo.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <Button
+            android:id="@+id/ui_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI更新"/>
+        <Button
+            android:id="@+id/buffer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buffer操作符示例"/>
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bounce和switchMap操作符示例"/>
+        <Button
+            android:id="@+id/retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="retrofit操作符示例"/>
+
+        <Button
+            android:id="@+id/polling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="轮询操作符示例"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
